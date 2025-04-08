@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: auto;
+}
+.row{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    height: auto;   
+    color: white;
+}
+.main1{
+    background-image: url(/image/clinic.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10%
+
+}
+.logo h2{
+    /* margin-left: 120px; */
+    margin-left: 50%;
+    /* margin-top: 10px; */
+    margin-top: 5%;
+
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    /* margin: 30px; */
+    margin: 3%;
+    /* margin-top: 10px; */
+    margin-top: 2%;
+    font-size: small;
+}
+.menu ul{
+    /* margin-left: 80px; */
+    margin-left: 5%;
+}
+.number{
+    /* margin-top: 15px; */
+    margin-top: 1%;
+}
+.number button{
+    background-color: orangered;
+    /* width: 110px; */
+    width: 50%;
+    /* height: 30px; */
+    height: 55%;
+    border-radius: 15px;
+    margin-left: -100px;
+    color: white;
+    border: none;
+}
+.s1:hover{
+    border: 2px solid black;
+    background-color:greenyellow;
+    color:red ;
+    /* box-shadow: 0px  0px 7px 2px blue; */
+    filter: drop-shadow(0px 10px 20px  orangered);
+}
+.heading1{
+    margin-left: 13%;
+    /* margin-top: 40PX; */
+    margin-top: 5%;
+}
+.heading1 h1{
+    font-size:50px;
+    /* margin: 30px; */
+    margin:4% ;
+    color: white;
+}
+.heading1 p{
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    margin: 2%;
+    font-size: 20px;
+    /* margin-left: 20px; */
+    margin-left: 4%;
+    color: white;
+}
+.heading1 button{
+    /* width: 280px; */
+    width: 50%;
+    /* height: 30px; */
+    height:7%;
+    background-color: orangered;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    /* margin-left: 20px; */
+    margin-left: 4%;
+}
+.heading2 {
+    /* margin-left: -250px; */
+    margin-left: -18%;
+    background-color: aquamarine;
+    /* width: 400px; */
+    width: 30%;
+    height: auto;
+    /* margin-top: 30px;   */
+    margin-top: 2%;
+}
+.heading2 h1{
+    /* margin-bottom: 10px; */
+    margin-bottom: 3%;
+    /* margin-left: 10px; */
+    margin-left: 4%;
+    /* margin-top: 10px; */
+    margin-top: 3%;
+}
+.heading2 #f1{
+    /* margin-left: 20px; */
+    margin-left: 5%;
+    /* width: 355px; */
+    width: 87%;
+    height: 30px;
+    /* margin-bottom: 20px; */
+    margin-bottom: 5%;
+}
+.heading2 #f2{
+    width: 100px;
+    margin-left: 20px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.heading2 #f3{
+    width: 250px;
+    height: 30px;
+}
+.heading2 #f4{
+    width: 170px;
+    height: 30px;
+    margin-left: 20px;
+}
+.heading2 #f5{
+    width: 170px;
+    height: 30px;
+}
+.heading2 #f6{
+    margin-left: 20px;
+    width: 200px;
+    height: 30px;
+    margin-top: 30px;
+    background-color: orangered;
+    color: white;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 15px;
+}
+.first{
+    margin-top: 50px;
+    margin-left: 24%;
+}
+.first h1{
+    margin-top: 10px;
+    color: orangered;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.first p{
+    margin-bottom: 10px;
+}
+.first #p1{
+    color: orangered;
+}
+.first .p1{
+    color: black;
+}
+.first button{
+    width: 200px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+.first i{
+    margin-left: 10px;
+}
+.heading3{
+    background-image: url(/image/thinking.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 70px; 
+}
+.head1{
+    text-align: center;
+    color: orangered;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.head2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.i1{
+    width: 260px;
+    height: auto;
+    background-color: rgb(231, 231, 233);
+    margin-left: 240px;
+    text-align: center;
+}
+.i1 h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.i1 #i1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: orangered;
+}
+.i1 button{
+    background-color: green;
+    color: white;
+    width: 140px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 20px;
+}
+.i1 i{
+    margin-left: 5px;
+}
+.i1 p{
+    margin-bottom: 20px;
+}
+.i2{
+    width: 260px;
+    height: auto;
+    background-color: rgb(231, 231, 233);
+    margin-left: 50px;
+    text-align: center;
+}
+.i2 h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.i2 #i2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: orangered;
+}
+.i2 button{
+    background-color: green;
+    color: white;
+    width: 140px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 20px;
+}
+.i2 i{
+    margin-left: 5px;
+}
+.i2 p{
+    margin-bottom: 20px;
+}
+.i3{
+    width: 260px;height: auto;
+    background-color: rgb(231, 231, 233);
+    margin-left: 50px;
+    text-align: center;
+}
+.i3 h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.i3 #i3{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: orangered;
+}
+.i3 button{
+    background-color: green;
+    color: white;
+    width: 140px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 20px;
+}
+.i3 i{
+    margin-left: 5px;
+}
+.i3 p{
+    margin-bottom: 20px;
+}
+.aa{
+    margin-top: 50px;
+    background-color: rgba(241, 236, 236, 0.938);
+}
+.a1{
+    margin-left: 250px;
+    margin-top: 50px;
+}
+.a1 p{
+    margin-bottom: 20px;
+}
+.a1 h1{
+    color: orangered;
+}
+.a1 ul{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.a2{
+    margin-left: -170px;
+    margin-top: 50px;
+}
+.a2 img{
+    width: 300px;
+    height: 350px;
+}
+.b #b1{
+    width: 100%;
+    height: 130px;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.c1{
+    margin-left: 200px;
+}
+#c1{
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    padding-top: 10px;
+    padding-left: 12px;
+    background-color: orangered;
+    border-radius: 20px;
+    color: white;
+}
+#c11{
+    margin-left: 50px;
+    margin-top: -40px;
+}
+#c12{
+    margin-left: 50px;
+    color: orangered;
+}
+
+@media screen {
+    
+}

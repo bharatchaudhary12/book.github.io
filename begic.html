@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: arial, helvetica;
+            background: slategray;
+
+        }
+
+        #wrapper {
+            width: 1000px;
+            border: 2px solid black;
+            background: white;
+            margin: 0 auto;
+
+        }
+
+        #header {
+            background: crimson;
+            height: 100px;
+            color: white;
+        }
+
+        #header h1 {
+            padding: 30px 40px;
+        }
+
+        #menu {
+            background: lightblue;
+        }
+
+        #menu ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        #menu li {
+            display: inline-block;
+        }
+
+        #menu li a {
+            display: block;
+            padding: 20px 20px;
+            text-decoration: none;
+            color: black;
+        }
+
+        #menu li a:hover {
+            background: crimson;
+        }
+
+        #content {
+            width: 600px;
+            float: left;
+            min-height: 500px;
+            padding: 40px;
+            box-sizing: border-box;
+        }
+
+        #content p {
+            margin: 20px 0px;
+        }
+
+        #sidebar {
+            background: lightcoral;
+            width: 200px;
+            float: right;
+            min-height: 500px;
+        }
+
+        #sidebar ul {
+            margin-left: 40px;
+        }
+
+        #sidebar a {
+            text-decoration: none;
+            color: black;
+            background: lightcoral;
+        }
+
+        #footer {
+            background: lightsalmon;
+            clear: both;
+            padding: 5px 10px;
+            text-align: right;
+        }
+
+        @media screen and (max-width:1020px) {
+            #weapper {
+                width: 1000px;
+            }
+        }
+
+        @media screen and (max-width:800px) {
+            #weapper {
+                width: 800px;
+            }
+        }
+
+        @media screen and (max-width:320px) {
+            #weapper {
+                width: 300px;
+            }
+
+            #header {
+                width: 300px;
+                text-align: center;
+            }
+
+            #menu {
+                width: 300px;
+            }
+
+            #content {
+                width: 300px;
+                display: block;
+            }
+
+            #sidebar {
+                width: 300px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1>webside</h1>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <h2>Desing Basic Layout</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, voluptate numquam aliquid molestias
+                enim recusandae asperiores illo minima perspiciatis, adipisci quis molestiae accusamus deserunt ducimus
+                iusto quam perferendis, totam ut?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum facilis rem omnis provident,
+                voluptates, maxime quod repellat libero quidem tempora quia ullam alias veniam sed at nam dolor eum.
+                Molestiae.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus debitis tempore, impedit illum,
+                doloribus quae eaque numquam dolorem tenetur velit rerum est ullam. Dolor doloribus ad voluptates, culpa
+                iure praesentium.</p>
+        </div>
+        <div id="sidebar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <div id="footer">
+            bharat chaudhay@copy
+        </div>
+    </div>
+</body>
+
+</html>

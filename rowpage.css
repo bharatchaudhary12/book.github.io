@@ -1,0 +1,366 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    height: auto;
+}
+.header{
+    width: 100%;
+    display: flex;
+    height: auto;
+    background-color: rgba(207, 196, 196, 0.647);
+}
+.icon{
+    width: 10%;
+}
+.icon h1{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.menu{
+    width: 60%;
+}
+.menu ul {
+    margin-left: 200px;
+}
+.menu ul li{
+    float: left;
+    list-style: none;
+    margin: 20px;
+}
+.logo{
+    width: 30%;
+}
+.logo ul li{
+    list-style: none;
+    float: left;
+    margin: 20px;
+}
+.logo ul{
+    margin-left: 100px;
+}
+
+.content{
+    width: 100%;
+    height: auto;
+    background-color: rgba(207, 196, 196, 0.647);
+}
+.content h1{
+    width: 100%;
+    margin-top: -1px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 60px;
+}
+.content p{
+    width: 300px;
+   margin-left:550px;
+   text-align: center;
+    font-size:large;
+}
+.sidebar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: rgba(207, 196, 196, 0.647);
+    padding-bottom: 50px;
+}
+.sidebar1,.sidebar2,.sidebar3{
+    width: 30%;
+    margin-left: 5%;
+    margin-top: 40px;
+}
+.sidebar1 img,.sidebar2 img,.sidebar3 img{
+    height: 400px;
+    width: 300px;
+}
+.sidebar1 hr,.sidebar2 hr,.sidebar3 hr{
+    width: 120px;
+    border: 2px solid black;
+}
+.sidebar1 p,.sidebar2 p,.sidebar3 p{
+    color: gray;
+}
+.sidebar1 strong,.sidebar2 strong,.sidebar3 strong{
+    width: 120px;
+}
+/* .sidebar :hover img{
+    transform: scale(1.6);
+    z-index: 2; 
+} */
+
+
+.first{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.first1,.first2,.first3,.first4{
+    width: 70%;
+    margin-top: 30px;
+    text-align: center;
+    font-size: small;
+}
+.first2{
+    margin-top: 60px;
+}
+.first2 img{
+    margin-bottom: 10px;  
+}
+
+.second{
+    width: 100%;
+    display: flex;
+}
+.second1,.second2,.second3{
+    width: 25%;
+    margin-top: 30px;  
+}
+.second1 img  ,.second2 img ,.second3 img {
+   width: 300px;
+   height: 400px;
+   margin-left: 50%; 
+}
+.second1 p,.second2 p ,.second3 p{
+    margin-left: 50%;
+    color: rgb(103, 103, 230);
+}
+
+.first0{
+    width: 100%;
+    display: flex;
+}
+.first01{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.first02{
+    margin-top: 20px;
+    margin-left: 600px;
+}
+
+.second0{
+    width: 100%;
+    display: flex;
+    background-color: rgb(155, 155, 163);
+    /* margin-left: 10%; */
+}
+.second01{
+    width: 50%;
+}
+.second01 img{
+    width: 80%;
+    height:auto;
+    margin-left: 20%;
+    margin-top: 40px;
+    padding-bottom: 20px;  
+}
+.second02{
+    width: 50%; 
+}
+.second02 h1{
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 140px;
+}
+.second02 p{
+    width: 50%;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+.second02 button{
+    margin-left: 140px;
+    margin-top: 20px;
+    width: 30%;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+}
+
+.third{
+    width: 100%;
+    margin-top: 80px;
+}
+.third img{
+    width: 98%;
+    margin-left: 1%;
+}
+
+@media screen and (max-width:350px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        width: 100%;
+        /* width: 350px; */
+    }
+    .header{
+        width:100%;
+        /* width: 350px; */
+        height: auto;
+        display: flex;
+    }
+    .icon{
+        /* width: 10%; */
+        width: 18px;
+    }
+    .icon h1{
+        font-size: small;
+        margin-left: 2px;
+    }
+    .menu{
+        /* width: 60%; */
+        width:138px;
+    }
+    .menu ul li{
+        float: left;
+        list-style: none;
+        margin: 2px;
+    }
+    .menu ul{
+        margin-left: 20px;
+        font-size: x-small;
+        margin-top: 10px;
+    }
+    .logo{
+        /* width: 30%; */
+        width: 158px;
+    }
+    .logo ul li{
+        float: left;
+        list-style: none;
+        margin: 2px;
+    } 
+    .logo ul{
+        margin-left: 10px;
+        font-size: x-small;
+        margin-top: 10px;  
+    } 
+}
+
+
+@media screen  and (max-width:350px){
+    .content{
+        /* width: 100%; */
+        width: 350px;
+        padding-bottom: 20px;
+    }
+    .content h1{
+        /* width: 100%; */
+        width: 100px;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .content p{
+        /* width: 100%; */
+        width: 250px;
+        text-align: center;
+        margin-left: -5px;
+    }
+}
+
+@media screen  and (max-width:350px){
+    .sidebar{
+        /* width: 100%; */
+        width: 350px;
+        height: auto;
+        display: block;
+        margin-top: -40px;
+        padding-top: 20px;
+    }
+    .sidebar1 h3,.sidebar2 h3,.sidebar3 h3{
+        width: 350px;
+    }
+    .sidebar1 p,.sidebar2 p,.sidebar3 p{
+        width: 350px;
+    }
+    /* .sidebar1 strong,.sidebar2 strong,.sidebar3 strong{
+        width: 200px;    
+    } */
+     .sidebar1 strong,.sidebar2 strong,.sidebar3 strong{
+        width: 350px;
+     } 
+}
+
+@media screen  and (max-width:350px){
+    .first{
+        /* width: 100%; */
+        width: 350px;
+        display: block;
+    }
+    /* .first1,.first2,.first3,.first4{
+        margin-left: 40px;
+    } */
+}
+
+@media screen  and (max-width:350px){
+    .second{
+        /* width: 100%; */
+        width: 350px;
+        display: block;
+    }
+    .second1 ,.second2,.second3{
+        /* margin-left: -10px; */
+        width: 350px;
+    }
+    .second1 p,.second p,.second3 p{
+        width: 350px;
+    }
+}
+
+@media screen  and (max-width:350px){
+    .first0{
+        /* width: 100%; */
+         width: 350px;
+        display: block;
+    }
+    .first01{
+        width: 340px;
+        font-size: small;
+        margin-left: 10px;
+    }
+    .first02{
+        width: 350px;
+    }
+    .first02 p{
+        width: 200px;
+        margin-left: -590px;
+    }
+    .first02 hr{
+        width: 160px;
+        margin-left: -590px;
+        border: 2px solid black ;
+    }
+}
+
+@media screen  and (max-width:350px){
+    .second0{
+        /* width: 100%; */
+        width: 350px;
+        display: block;
+    }
+    .second01 img{
+        width: 300px;
+        margin-left: 10px;
+    }
+    .second02{
+        width: 300px;
+        margin-left: -100px;
+        margin-top: -100px;
+        padding-bottom: 40px;
+    }
+    .second02 button{
+        width: 200px;
+    }
+}
+
+@media screen  and (max-width:350px){
+    .third{
+        /* width: 100%; */
+        width: 350px;
+    }
+}
